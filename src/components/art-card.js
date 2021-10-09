@@ -19,7 +19,7 @@ function ArtCard(props) {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <img src={dot} />
+                <img src={dot} alt="menu" />
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li>
@@ -37,12 +37,12 @@ function ArtCard(props) {
           </div>
           <p className="card-text">{props.subtitle}</p>
           <div className="author_info">
-            <img src={props.authImg} />
+            <img src={props.authImg} alt="author image" />
             <div className="name_views">
               <h3>{props.authName}</h3>
               <p>{props.views}</p>
             </div>
-            <img src={sharebtnbig} />
+            <img src={sharebtnbig} alt="share button" />
           </div>
         </div>
       </div>

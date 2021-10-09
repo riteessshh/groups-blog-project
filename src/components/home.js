@@ -36,30 +36,30 @@ function Home() {
 
   return (
     <div className="box">
-      <img src={writebtn} className="write-btn" />
+      <img src={writebtn} className="write-btn" alt="write" />
       <SignUp />
       <SignIn />
       <div className="desk-navbar">
-        <img src={logo} />
+        <img src={logo} alt="logo" />
         <div className="input">
-          <img src={search} />
+          <img src={search} alt="search" />
           <input placeholder="Search for your favorite groups in ATG" />
         </div>
         <p id="unknown" onClick={userLogin} className="">
           Create account<span>Its' Free!</span>
-          <img src={drpdwn} />
+          <img src={drpdwn} alt="dropdown" />
         </p>
         <p id="loggedIn" className="hide">
           <img className="userImg" src={person5} />
           Siddharth Goyal
-          <img src={drpdwn} />
+          <img src={drpdwn} alt="dropdown" />
         </p>
       </div>
 
       <div className="header">
         <div className="overlay">
           <div className="navigation">
-            <img src={backArrow} className="back" />
+            <img src={backArrow} className="back" alt="back" />
             <button id="groupStat" onClick={userLogin}>
               Join Group
             </button>
@@ -92,14 +92,14 @@ function Home() {
           <div className="func">
             <button className="wpst">
               Write a Post
-              <img src={drpdwn} />
+              <img src={drpdwn} alt="dropdown" />
             </button>
             <button onClick={userLogin} className="join-leave">
-              <img src={addContact} />
+              <img src={addContact} alt="add contact" />
               Join Group
             </button>
             <button className="hide join-leave-2">
-              <img src={leave} />
+              <img src={leave} alt="leave" />
               Leave Group
             </button>
           </div>
@@ -192,13 +192,13 @@ function Home() {
             <div className="position-sticky" style={{ top: "2rem" }}>
               <div className="loc p-4 mb-3 rounded">
                 <div className="loc-input">
-                  <img className="pointer" src={pointer} />
+                  <img className="pointer" src={pointer} alt="pointer" />
                   <input placeholder="Enter your location" />
-                  <img className="pen" src={pen} />
+                  <img className="pen" src={pen} alt="pen" />
                 </div>
                 <p>
                   <span>
-                    <img src={alert} />
+                    <img src={alert} alt="alert" />
                   </span>
                   Your location will help us serve better and extend a
                   personalised experience.
@@ -211,22 +211,22 @@ function Home() {
                 </h1>
                 <div className="g-list">
                   <div className="item">
-                    <img src={gicon1} />
+                    <img src={gicon1} alt="group icon" />
                     <h5>Leisure</h5>
                     <p>follow</p>
                   </div>
                   <div className="item">
-                    <img src={gicon2} />
+                    <img src={gicon2} alt="group icon" />
                     <h5>Activism</h5>
                     <p>follow</p>
                   </div>
                   <div className="item">
-                    <img src={gicon3} />
+                    <img src={gicon3} alt="group icon" />
                     <h5>MBA</h5>
                     <p>follow</p>
                   </div>
                   <div className="item">
-                    <img src={gicon4} />
+                    <img src={gicon4} alt="group icon" />
                     <h5>Philosophy</h5>
                     <p>follow</p>
                   </div>

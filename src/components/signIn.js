@@ -37,13 +37,13 @@ function SignIn() {
           <div className="mobile">
             <div className="head">
               <h1>Welcome Back!</h1>
-              <img onClick={closePage} src={cross2} />
+              <img onClick={closePage} src={cross2} alt="cancel" />
             </div>
             <div className="input-section">
               <input placeholder="Email" />
               <div className="pw-view">
                 <input placeholder="Password" />
-                <img src={eye} />
+                <img src={eye} alt="check the password" />
               </div>
               <div className="buttons">
                 <button onClick={userCreated} style={{ width: "150px" }}>
@@ -54,11 +54,11 @@ function SignIn() {
             </div>
             <div className="social-login">
               <p>
-                <img src={facebook} />
+                <img src={facebook} alt="facebook" />
                 Sign up with Facebook
               </p>
               <p>
-                <img src={google} />
+                <img src={google} alt="google" />
                 Sign up with Google
               </p>
             </div>
@@ -66,7 +66,7 @@ function SignIn() {
           </div>
 
           <div className="desktop">
-            <img onClick={closePage} src={cross} />
+            <img onClick={closePage} src={cross} alt="cancel" />
             <h5>
               Let's learn, share & inspire each other with our passion for
               computer engineering. Sign up now 🤘🏼
@@ -84,7 +84,7 @@ function SignIn() {
                   <input placeholder="Email" />
                   <div className="pw-view">
                     <input placeholder="Password" />
-                    <img src={eye} />
+                    <img src={eye} alt="check the password" />
                   </div>
                   <div className="buttons">
                     <button onClick={userCreated}>Sign In</button>
@@ -92,11 +92,11 @@ function SignIn() {
                 </div>
                 <div className="social-login">
                   <p>
-                    <img src={facebook} />
+                    <img src={facebook} alt="facebook" />
                     Sign up with Facebook
                   </p>
                   <p>
-                    <img src={google} />
+                    <img src={google} alt="google" />
                     Sign up with Google
                   </p>
                 </div>
@@ -111,7 +111,7 @@ function SignIn() {
                 </h5>
               </div>
               <div className="login-img">
-                <img src={loginImg} />
+                <img src={loginImg} alt="illustration" />
               </div>
             </div>
           </div>

@@ -37,7 +37,7 @@ function SignUp() {
           <div className="mobile">
             <div className="head">
               <h1>Create account</h1>
-              <img onClick={closePage} src={cross2} />
+              <img onClick={closePage} src={cross2} alt="cancel" />
             </div>
             <div className="input-section">
               <div className="name">
@@ -47,7 +47,7 @@ function SignUp() {
               <input placeholder="Email" />
               <div className="pw-view">
                 <input placeholder="Password" />
-                <img src={eye} />
+                <img src={eye} alt="check the password" />
               </div>
               <input placeholder="Confirm Password" />
               <div className="buttons">
@@ -71,7 +71,7 @@ function SignUp() {
           </div>
 
           <div className="desktop">
-            <img onClick={closePage} src={cross} />
+            <img onClick={closePage} src={cross} alt="cancel" />
             <h5>
               Let's learn, share & inspire each other with our passion for
               computer engineering. Sign up now 🤘🏼
@@ -93,7 +93,7 @@ function SignUp() {
                   <input placeholder="Email" />
                   <div className="pw-view">
                     <input placeholder="Password" />
-                    <img src={eye} />
+                    <img src={eye} alt="check the password" />
                   </div>
                   <input placeholder="Confirm Password" />
                   <div className="buttons">
@@ -102,17 +102,17 @@ function SignUp() {
                 </div>
                 <div className="social-login">
                   <p>
-                    <img src={facebook} />
+                    <img src={facebook} alt="facebook" />
                     Sign up with Facebook
                   </p>
                   <p>
-                    <img src={google} />
+                    <img src={google} alt="google" />
                     Sign up with Google
                   </p>
                 </div>
               </div>
               <div className="login-img">
-                <img src={loginImg} />
+                <img src={loginImg} alt="illustration" />
                 <h5>
                   By signing up, you agree to our Terms & conditions, Privacy
                   policy

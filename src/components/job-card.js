@@ -21,7 +21,7 @@ function JobCard(props) {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <img src={dot} />
+                <img src={dot} alt="menu" />
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li>
@@ -39,22 +39,22 @@ function JobCard(props) {
           </div>
           <div className="time-loc">
             <p>
-              <img src={bag} />
+              <img src={bag} alt="bag icon" />
               {props.company}
             </p>
             <p>
-              <img src={pointer} />
+              <img src={pointer} alt="pointer" />
               {props.location}
             </p>
           </div>
           <button style={{ color: "green" }}>Apply on Timesjobs</button>
           <div className="author_info">
-            <img src={props.authImg} />
+            <img src={props.authImg} alt="author image" />
             <div className="name_views">
               <h3>{props.authName}</h3>
               <p>{props.views}</p>
             </div>
-            <img src={sharebtnbig} />
+            <img src={sharebtnbig} alt="share button" />
           </div>
         </div>
       </div>
